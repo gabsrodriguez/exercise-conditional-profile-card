@@ -48,12 +48,12 @@ window.onload = function() {
     includeCover: true,
     // this is the url of the image that will used as background for the profile cover
     background:
-      "https://i.pinimg.com/originals/a4/da/bc/a4dabc42b9bec96fea85aec07a68f790.jpg",
+      "https://66.media.tumblr.com/9cf8d717a9a48ca2d8db9dc7aaa276bb/tumblr_mzo0rtdzWm1shjuxjo7_r1_400.gifv",
     // this is the url for the profile avatar
     avatarURL:
-      "https://am22.akamaized.net/tms/cnt/uploads/2019/05/raven-teen-titans.jpg",
+      "https://imgix.bustle.com/rehost/2016/9/13/19072080-d6e6-47a4-98d3-47fe27f29b4c.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
     // social media bar position (left or right)
-    socialMediaPosition: "right",
+    socialMediaPosition: "Right",
     // social media usernames
     twitter: null,
     github: null,
@@ -73,7 +73,7 @@ window.onload = function() {
       values[attribute] =
         this.value == ""
           ? null
-          : this.value == "true"
+          : this.value == "no"
             ? true
             : this.value == "false"
               ? false
